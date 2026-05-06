@@ -1,0 +1,11 @@
+FROM alpine:latest
+
+RUN apk update && apk upgrade && \
+    apk add nginx && \
+    rm -rf /var/cache/apk/*
+
+COPY site /var/www/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
