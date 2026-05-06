@@ -178,6 +178,7 @@ docker container rm mynginx
 | mynginx:repack   | Перепаковка RAW                    | 232MB      | 75.9MB       |
 
 ---
+<img width="802" height="428" alt="image" src="https://github.com/user-attachments/assets/e7a41f84-9ff7-4bd8-b013-4d1a2d5e8de3" />
 
 ## 6. Анализ результатов
 
